@@ -13,7 +13,19 @@ for row in rows:
     print row["n"].labels
     print row["n"]["name"]
     print "----------------"
-
+# 标准输出
+# <Record n=<Node id=27 labels=set([u'Character']) properties={u'name': u'Addam-Marbrand'}>>
+# <Node id=27 labels=set([u'Character']) properties={u'name': u'Addam-Marbrand'}>
+# 27
+# frozenset([u'Character'])
+# Addam-Marbrand
+# ----------------
+# <Record n=<Node id=28 labels=set([u'Character']) properties={u'name': u'Aegon-Frey-(son-of-Stevron)'}>>
+# <Node id=28 labels=set([u'Character']) properties={u'name': u'Aegon-Frey-(son-of-Stevron)'}>
+# 28
+# frozenset([u'Character'])
+# Aegon-Frey-(son-of-Stevron)
+# ----------------
 
 
 # episodes = {}
